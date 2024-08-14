@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Ann-e</h1>
+        <p>Tienes 4 opciones en las que puedes usar esta calculadora. Tú decides cual necesitas.</p>
+        <input type="number" id="A" placeholder="primer número">
+        <input type="number" id="B" placeholder="segundo número"><br>
+        <button onclick="calcular('suma')">Sumar</button>
+        <button onclick="calcular('resta')">Restar</button>
+        <button onclick="calcular('multiplicacion')">Multiplicar</button>
+        <button onclick="calcular('division')">Dividir</button>
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
